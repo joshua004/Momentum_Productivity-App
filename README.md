@@ -211,11 +211,26 @@ struct FocusSession: Codable, Identifiable {
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE.md](LICENSE.md) para detalles.
+
+Este proyecto se distribuye bajo un modelo de **Doble Licencia (Dual-License)**.
+
+### 1. Licencia para Proyectos de Código Abierto
+
+Para proyectos personales, educativos o de código abierto que también sean compatibles con la licencia GPLv3, puedes usar este software bajo los términos de la **GNU General Public License v3.0 (GPLv3)**. El texto completo de la licencia está disponible en el archivo [LICENSE](LICENSE) de este repositorio.
+
+La condición principal de la GPLv3 es que cualquier software derivado que distribuyas también debe ser licenciado bajo GPLv3, manteniendo así el ecosistema de código abierto.
+
+### 2. Licencia Comercial
+
+Si deseas utilizar este software en un **producto comercial de código cerrado** donde no quieres (o no puedes) cumplir con las obligaciones de la GPLv3, es necesario adquirir una **licencia comercial**.
+
+Esta licencia te permite integrar el código en tus aplicaciones propietarias sin la obligación de liberar tu propio código fuente.
+
+Para obtener más información sobre los términos de la licencia comercial y los precios, por favor, ponte en contacto conmigo en **[ajtienda.arellano.cb078@gmail.com]**.
 
 ## 👨‍💻 Autor
 
-**Josh Tienda** - Desarrollo iOS
+**Josh Tienda** - Desarrollo iOS | Java Backend Developer | Guidewire Integrations Consultant 
 
 ---
 
