@@ -17,38 +17,26 @@ La aplicación sigue el patrón **MVVM (Model-View-ViewModel)** con inyección d
 
 ## 📂 Estructura del Proyecto
 
+## Estructura del Proyecto
+
 ```
-appIos/
-├── App/
-│   └── MomentumApp.swift          # Punto de entrada principal
-├── Core/
-│   ├── Models/
-│   │   ├── Task.swift             # Modelo de datos MomentumTask
-│   │   └── FocusSession.swift     # Modelo de sesión de enfoque
-│   └── Services/
-│       ├── Persistence/
-│       │   ├── PersistenceServiceProtocol.swift  # Protocolo de persistencia
-│       │   └── LocalPersistenceService.swift     # Implementación con UserDefaults
-│       └── Networking/
-│           ├── NetworkServiceProtocol.swift      # Protocolo de red
-│           └── APIService.swift                  # Servicio de API (futuro)
-├── Features/
-│   ├── TodayDashboard/            # Dashboard principal
-│   │   ├── View/
-│   │   │   └── TodayDashboardView.swift         # Vista principal
-│   │   └── ViewModel/
-│   │       └── TodayDashboardViewModel.swift    # Lógica de negocio
-│   ├── Planner/                   # Planificador (futuro)
-│   ├── FocusMode/                 # Modo enfoque (futuro)
-│   └── Stats/                     # Estadísticas (futuro)
-├── Shared/
-│   ├── Extensions/
-│   │   └── Color+Palette.swift    # Paleta de colores personalizada
-│   └── Views/                     # Componentes UI reutilizables
-└── Assets.xcassets/
-    ├── BoneBackground.colorset    # Color de fondo principal
-    ├── AccentBlue.colorset        # Color azul de acento
-    └── AccentOrange.colorset      # Color naranja de acento
+Momentum/
+├── Momentum/
+│   ├── App/
+│   │   └── MomentumApp.swift
+│   ├── Core/
+│   │   ├── Models/
+│   │   └── Services/
+│   ├── Features/
+│   │   └── TodayDashboard/
+│   └── Shared/
+│       └── Extensions/
+├── MomentumTests/
+├── MomentumUITests/
+├── MomentumApp.swift
+├── ContentView.swift
+├── Item.swift
+└── Momentum.xcodeproj
 ```
 
 ## 🎯 Funcionalidades Implementadas
@@ -127,7 +115,7 @@ struct FocusSession: Codable, Identifiable {
 ## 🚀 Instalación y Ejecución
 
 1. **Clonar el repositorio**
-2. **Abrir** `appIos.xcodeproj` en Xcode
+2. **Abrir** `Momentum.xcodeproj` en Xcode
 3. **Seleccionar** un simulador iOS
 4. **Ejecutar** el proyecto (⌘+R)
 

@@ -1,13 +1,13 @@
 //
-//  appIosUITestsLaunchTests.swift
-//  appIosUITests
+//  MomentumUITestsLaunchTests.swift
+//  MomentumUITests
 //
 //  Created by Josh Tienda on 31/07/25.
 //
 
 import XCTest
 
-final class appIosUITestsLaunchTests: XCTestCase {
+final class MomentumUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
